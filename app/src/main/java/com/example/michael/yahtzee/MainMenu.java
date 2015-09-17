@@ -1,12 +1,26 @@
 package com.example.michael.yahtzee;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class MainMenu extends AppCompatActivity {
+    //press to begin a new game
+    public void newGame(View view)
+    {
+        Button beginGame = (Button)findViewById(R.id.NewGame);
+        beginGame.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainMenu.this,GameBoard.class));
+            }//onClick
+        });//setOnClickListener
 
+    }//newGame
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
