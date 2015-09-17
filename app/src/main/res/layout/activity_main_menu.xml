@@ -24,7 +24,9 @@
         android:id="@+id/NewGame"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:onClick="newGame"
+        />
 
     <Button
         android:layout_width="wrap_content"
