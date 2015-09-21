@@ -375,34 +375,19 @@
             android:textSize="50dp"
             android:background="#ffff0000" />
 
-        <FrameLayout
-            android:layout_width="330dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="right|center_vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="94dp"
+            android:layout_height="58dp"
+            android:layout_gravity="right|top">
 
-            <ImageButton
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:id="@+id/imageButton"
-                android:layout_gravity="center"
-                android:src="@drawable/side6"
-                android:scaleType="fitXY"/>
-
-            <ImageButton
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:id="@+id/imageButton2"
-                android:layout_gravity="left|center_vertical"
-                android:src="@drawable/side3"
-                android:scaleType="fitXY"/>
-
-            <ImageButton
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton3"
-                android:layout_gravity="right|center_vertical" />
+                android:text="Pause"
+                android:id="@+id/button" />
+        </LinearLayout>
 
-        </FrameLayout>
 
     </FrameLayout>
 
