@@ -6,7 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class Pause extends ActionBarActivity {
+public class Pause extends GameBoard {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

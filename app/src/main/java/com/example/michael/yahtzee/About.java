@@ -12,6 +12,17 @@ public class About extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
+        //I AM EDITING THIS SHIT YO
+        ///
+
+        //
+        //WHAAARTTTT UPUPPU
+        //
+        //
+        //sgfdg srtg fsg af
+        //
+        //FUCK YOU AND YOUR BUTTONS
+
     }
 
     @Override

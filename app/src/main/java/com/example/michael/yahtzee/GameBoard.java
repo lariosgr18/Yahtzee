@@ -1,9 +1,11 @@
 package com.example.michael.yahtzee;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
 
 public class GameBoard extends AppCompatActivity {
@@ -14,6 +16,15 @@ public class GameBoard extends AppCompatActivity {
         setContentView(R.layout.activity_game_board);
 
     }
+
+
+    public void pauseGame(View v)
+    {
+        Intent pause = new Intent(this, Pause.class);
+        startActivity(pause);
+
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
