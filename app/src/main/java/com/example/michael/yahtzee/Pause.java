@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class Pause extends GameBoard {
@@ -13,6 +14,12 @@ public class Pause extends GameBoard {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pause);
     }
+
+    public void resume(View v)
+    {
+        finish();
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
