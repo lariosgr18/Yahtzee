@@ -29,6 +29,8 @@
         android:text="Quit"
         android:id="@+id/quit"
         android:layout_below="@+id/resume"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="quitClick"
+        />
 
 </RelativeLayout>
