@@ -21,6 +21,12 @@ public class MainMenu extends AppCompatActivity {
         });//setOnClickListener
 
     }//newGame
+
+    public void aboutActivity(View v)
+    {
+        Intent about = new Intent(MainMenu.this, About.class);
+        startActivity(about);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -44,7 +44,8 @@
         android:id="@+id/About"
         android:layout_below="@+id/ContinueGame"
         android:layout_centerHorizontal="true"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:onClick="aboutActivity"/>
 
     <TextView
         android:layout_width="wrap_content"
